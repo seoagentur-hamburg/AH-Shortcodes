@@ -1,0 +1,273 @@
+/**
+AH Shortcodes CSS
+Author: Andreas Hecht
+Author URI: https://andreas-hecht.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/*	Evolution Buttons */
+a.evolution-button,
+a.evolution-button:visited {
+	background-color: #0c6fb1;
+	-webkit-border-radius: 2rem;
+	border-radius: 2rem;
+	color: #fff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial, Sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1em;
+    margin: 10px 5px;
+	outline: none;
+	padding: 8px 30px !important;
+	text-align: center;
+	text-decoration: none !important;
+	vertical-align: middle;
+}
+
+a.evolution-button.square {
+	-webkit-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+
+a.evolution-button.large {
+	-webkit-border-radius: 2em;
+	border-radius: 2em;
+	font-size: 1.1rem;
+	padding: 14px 60px !important;
+}
+
+a.evolution-button:hover { text-decoration: none; }
+
+a.evolution-button:active {
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.9);
+	position: relative;
+	top: 1px;
+}
+
+a.evolution-button.green {
+    background-color: #30AC38;
+}
+
+a.evolution-button.green:hover {
+	background-color: #8dd242;
+}
+
+a.evolution-button.blue {
+    background-color: #337ab7;
+}
+
+a.evolution-button.blue:hover {
+	background-color: #1188d6;
+}
+
+a.evolution-button.red {
+    background-color: #bc3315;
+}
+
+a.evolution-button.red:hover {
+	background-color: #ff5e56;
+}
+
+
+
+/* Evolution Alerts */
+.evolution-alert {
+    line-height: 1.6em;
+    margin: 0 0 1.5em 0;
+    padding: 0.8em;
+}
+
+.evolution-alert.red {
+    background: #ffe6e3;
+    border: 1px solid #f2c3bf;
+    color: #bf210e;
+}
+
+.evolution-alert.blue {
+    background: #eaf9ff;
+    border: 1px solid #cae4ef;
+    color: #13475e;
+}
+
+.evolution-alert.green {
+    background: #edfdd3;
+    border: 1px solid #c4dba0;
+    color: #657e3c;
+}
+
+.evolution-alert.grey {
+    background: #fbfbfb;
+    border: 1px solid #dfdfdf;
+    color: #373737;
+}
+
+
+
+/* Evolution Tabs */
+.evolution-tabs.ui-tabs .ui-tabs-hide {
+    position: absolute;
+	    left: -10000px;
+}
+
+.evolution-tabs {
+	background: none;
+	margin: 0 0 2em 0;
+}
+
+.evolution-tabs .evolution-nav {
+	background: none;
+	border: 0;
+	float: none;
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0;
+}
+
+.evolution-tabs .evolution-nav li {
+	float: left;
+	list-style: none !important;
+	margin: 0 2px -1px 0 !important;
+	position: relative;
+	z-index: 10;
+    line-height: 1;
+}
+
+.evolution-tabs .evolution-nav li a {
+	background: #eee;
+	border: 1px solid #ddd !important;
+	border-bottom: none !important;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	color: #222 !important;
+	display: block;
+    line-height: 1;
+	margin: 0 !important;
+	overflow: hidden;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.evolution-tabs .evolution-nav li a:hover {
+	background: #fff!important;
+	margin: 0!important;
+}
+
+.evolution-tabs .evolution-nav .ui-tabs-selected a,
+.evolution-tabs .evolution-nav .ui-tabs-active a {
+	background: #fff;
+    outline: none;
+
+}
+
+.evolution-tabs .evolution-tab {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+
+
+
+/* Evolution Toggle */
+.evolution-toggle { margin: 0 0 2em 0; }
+
+.evolution-toggle + .evolution-toggle { margin-top: -1.75em; }
+
+.evolution-toggle .evolution-toggle-title {
+	background: #FBFBFB;
+	border: 1px solid #dfdfdf;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	padding: 10px 10px 10px 40px;
+	position: relative;
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.evolution-toggle .evolution-toggle-title:hover { border: 1px solid #c5c5c5; }
+
+.evolution-toggle-inner {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	padding: 20px;
+}
+
+.evolution-toggle span.ui-icon {
+    background: url(../img/toggle-closed.png) no-repeat;
+    height: 12px;
+    margin: -6px 0 0 0;
+    position: absolute;
+	    top: 50%;
+    	left: 10px;
+    width: 12px;
+}
+
+.evolution-toggle .ui-state-active .ui-icon { background: url(../img/toggle-open.png) no-repeat; }
+
+
+/* Evolution Columns */
+.evolution-one-half { width: 48%; }
+.evolution-one-third { width: 30.66%; }
+.evolution-two-third { width: 65.33%; }
+.evolution-one-fourth { width: 22%; }
+.evolution-three-fourth { width: 74%; }
+.evolution-one-fifth { width: 16.8%; }
+.evolution-two-fifth { width: 37.6%; }
+.evolution-three-fifth { width: 58.4%; }
+.evolution-four-fifth { width: 79.2%; }
+.evolution-one-sixth { width: 13.33%; }
+.evolution-five-sixth { width: 82.67%; }
+
+.evolution-one-half,
+.evolution-one-third,
+.evolution-two-third,
+.evolution-three-fourth,
+.evolution-one-fourth,
+.evolution-one-fifth,
+.evolution-two-fifth,
+.evolution-three-fifth,
+.evolution-four-fifth,
+.evolution-one-sixth,
+.evolution-five-sixth {
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.evolution-column-last {
+    clear: right;
+    margin-right: 0 !important;
+}
+
+@media screen and (max-width: 414px) {
+    .evolution-one-half,
+    .evolution-one-third,
+    .evolution-two-third,
+    .evolution-three-fourth,
+    .evolution-one-fourth,
+    .evolution-one-fifth,
+    .evolution-two-fifth,
+    .evolution-three-fifth,
+    .evolution-four-fifth,
+    .evolution-one-sixth,
+    .evolution-five-sixth {
+        width: 96%;
+    }
+}
+
+/* Clearfix */
+.evolution-clearfix:before,
+.evolution-clearfix:after { content:""; display:table; }
+.evolution-clearfix:after { clear: both; }
+.evolution-clearfix { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }

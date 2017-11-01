@@ -1,0 +1,328 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-01 15:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/config.php:9
+msgid "Button"
+msgstr ""
+
+#: includes/config.php:16
+msgid "Button URL"
+msgstr ""
+
+#: includes/config.php:17
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: includes/config.php:21
+msgid "Button Style"
+msgstr ""
+
+#: includes/config.php:22
+msgid "Select the button's style, ie the button's color"
+msgstr ""
+
+#: includes/config.php:24 includes/config.php:80
+msgid "Green"
+msgstr ""
+
+#: includes/config.php:25 includes/config.php:79
+msgid "Blue"
+msgstr ""
+
+#: includes/config.php:26 includes/config.php:78
+msgid "Red"
+msgstr ""
+
+#: includes/config.php:31
+msgid "Button Size"
+msgstr ""
+
+#: includes/config.php:32
+msgid "Select the button's size"
+msgstr ""
+
+#: includes/config.php:34
+msgid "Small"
+msgstr ""
+
+#: includes/config.php:35
+msgid "Large"
+msgstr ""
+
+#: includes/config.php:40
+msgid "Button Type"
+msgstr ""
+
+#: includes/config.php:41
+msgid "Select the button's type"
+msgstr ""
+
+#: includes/config.php:43
+msgid "Round"
+msgstr ""
+
+#: includes/config.php:44
+msgid "Square"
+msgstr ""
+
+#: includes/config.php:49
+msgid "Button Target"
+msgstr ""
+
+#: includes/config.php:50
+msgid "Set the browser behavior for the click action."
+msgstr ""
+
+#: includes/config.php:52
+msgid "Same window"
+msgstr ""
+
+#: includes/config.php:53
+msgid "New window"
+msgstr ""
+
+#: includes/config.php:59
+msgid "Button's Text"
+msgstr ""
+
+#: includes/config.php:60
+msgid "Add the button's text"
+msgstr ""
+
+#: includes/config.php:68
+msgid "Alert"
+msgstr ""
+
+#: includes/config.php:74
+msgid "Alert Style"
+msgstr ""
+
+#: includes/config.php:75
+msgid "Select the alert's style, ie the alert colour"
+msgstr ""
+
+#: includes/config.php:77
+msgid "Grey"
+msgstr ""
+
+#: includes/config.php:86
+msgid "Alert Text"
+msgstr ""
+
+#: includes/config.php:87
+msgid "Add the alert's text"
+msgstr ""
+
+#: includes/config.php:96
+msgid "Toggle"
+msgstr ""
+
+#: includes/config.php:99
+msgid ""
+"Click 'Add Toggle' to add a new toggle. Drag and drop to reorder toggles."
+msgstr ""
+
+#: includes/config.php:105
+msgid "Toggle Content Title"
+msgstr ""
+
+#: includes/config.php:106
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: includes/config.php:112
+msgid "Toggle Content"
+msgstr ""
+
+#: includes/config.php:113
+msgid "Add the toggle content. Will accept HTML"
+msgstr ""
+
+#: includes/config.php:117
+msgid "Toggle State"
+msgstr ""
+
+#: includes/config.php:118
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: includes/config.php:120
+msgid "Open"
+msgstr ""
+
+#: includes/config.php:121
+msgid "Closed"
+msgstr ""
+
+#: includes/config.php:126
+msgid "Add Toggle"
+msgstr ""
+
+#: includes/config.php:133
+msgid "Tab"
+msgstr ""
+
+#: includes/config.php:136
+msgid "Click 'Add Tab' to add a new tag. Drag and drop to reorder tabs."
+msgstr ""
+
+#: includes/config.php:143
+msgid "Tab Title"
+msgstr ""
+
+#: includes/config.php:144
+msgid "Title of the tab."
+msgstr ""
+
+#: includes/config.php:149
+msgid "Tab Content"
+msgstr ""
+
+#: includes/config.php:150
+msgid "Add the tabs content."
+msgstr ""
+
+#: includes/config.php:154
+msgid "Add Tab"
+msgstr ""
+
+#: includes/config.php:161
+msgid "Columns"
+msgstr ""
+
+#: includes/config.php:164
+msgid ""
+"Click 'Add Column' to add a new column. Drag and drop to reorder columns."
+msgstr ""
+
+#: includes/config.php:170
+msgid "Column Type"
+msgstr ""
+
+#: includes/config.php:171
+msgid "Select the width of the column."
+msgstr ""
+
+#: includes/config.php:173
+msgid "One Third"
+msgstr ""
+
+#: includes/config.php:174
+msgid "Two Thirds"
+msgstr ""
+
+#: includes/config.php:175
+msgid "One Half"
+msgstr ""
+
+#: includes/config.php:176
+msgid "One Fourth"
+msgstr ""
+
+#: includes/config.php:177
+msgid "Three Fourth"
+msgstr ""
+
+#: includes/config.php:178
+msgid "One Fifth"
+msgstr ""
+
+#: includes/config.php:179
+msgid "Two Fifth"
+msgstr ""
+
+#: includes/config.php:180
+msgid "Three Fifth"
+msgstr ""
+
+#: includes/config.php:181
+msgid "Four Fifth"
+msgstr ""
+
+#: includes/config.php:182
+msgid "One Sixth"
+msgstr ""
+
+#: includes/config.php:183
+msgid "Five Sixth"
+msgstr ""
+
+#: includes/config.php:188
+msgid "Last column"
+msgstr ""
+
+#: includes/config.php:189
+msgid "Set whether this is the last column."
+msgstr ""
+
+#: includes/config.php:193
+msgid "Column content"
+msgstr ""
+
+#: includes/config.php:195
+msgid "Column Content"
+msgstr ""
+
+#: includes/config.php:196
+msgid "Add the column content."
+msgstr ""
+
+#: includes/config.php:200
+msgid "Add Column"
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-admin-insert.php:36
+msgid "AH Shortcodes"
+msgstr ""
+
+#: includes/class-admin-insert.php:36 includes/class-admin-insert.php:336
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/class-admin-insert.php:260
+msgid "Select the shortcode type"
+msgstr ""
+
+#: includes/class-admin-insert.php:262
+msgid "Select Shortcode"
+msgstr ""
+
+#: includes/class-admin-insert.php:301 includes/class-admin-insert.php:314
+msgid "Remove"
+msgstr ""
+
+#: includes/class-admin-insert.php:337
+msgid "Cancel"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is a simple shortcode generator. Add buttons, columns, tabs, toggles "
+"and alerts to your theme."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://andreas-hecht.com/plugins/evolution-shortcodes"
+msgstr ""
+
+#. Author of the plugin
+msgid "Andreas Hecht"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://andreas-hecht.com"
+msgstr ""
