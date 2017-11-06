@@ -13,7 +13,7 @@ This is a simple shortcode generator. Add buttons, columns, tabs, toggles and al
 
 This is a simple shortcode generator. You can add nicely styled buttons, columns, tabs, toggles and alerts to your post and page content.
 
-You can find a demo on [AH Shortcodes Demo](https://andreas-hecht.com/demo/ah-shortcodes.html/ "AH Shortcodes Demo")
+You can find a demo on [AH Shortcodes Demo](https://andreas-hecht.com/demo/ah-shortcodes.html "AH Shortcodes Demo")
 
 If you'd like to contribute, you can find a development version on ([GitHub](https://github.com/HechtMediaArts/AH-Shortcodes "GitHub")).
 
